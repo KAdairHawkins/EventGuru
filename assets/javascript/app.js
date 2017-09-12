@@ -34,10 +34,3 @@ $("#create-event").on("click", function(){
 	var calEvent = new newEvent(x,y,z);
 });
 
-$("#sign-in").on("click", function(){
-	console.log("You clicked me!");
-});
-
-$("#sign-in").on("click", function(){
-	$(".wrapper").hide();
-});
