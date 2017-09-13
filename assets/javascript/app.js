@@ -10,15 +10,22 @@
 
   var database = firebase.database();
 
-  var userName = "";
+  var name = "";
+  var location = "";
+  var date = "";
 
 $("#log-in").on("click", function(){
 	event.preventDefault();
-	userName = $("#user-name").val();
+	name = $("#name").val().trim();
+	location = $("#location").val().trim();
+	date = $("#date").val().trim();
 	
 	var userToAdd = {
-		username: userName		
+		username: name,
+		location: location,
+		date: date	
 	}
+
 	database.ref().push(userToAdd);
 
 });
