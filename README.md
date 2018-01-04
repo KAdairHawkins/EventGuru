@@ -1,2 +1,2 @@
 # EventGuru
-Travel anywhere and find the organize the best events for your schedule 
+Travel anywhere, find the best events, and let our app organize your schedule for you 
