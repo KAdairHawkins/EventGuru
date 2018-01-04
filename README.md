@@ -1,4 +1,2 @@
 # EventGuru
-Group #5 project
-
-"How to make carousel cycle" https://v4-alpha.getbootstrap.com/components/carousel/#carouselcycle 
+Travel anywhere and find the organize the best events for your schedule 
